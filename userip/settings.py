@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'userip.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ip'
+        'NAME': 'userip'
     },
     'userip': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -109,4 +109,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-LINK_ANALYZE_MAX_SOURCE_ROWS = 100
+LINK_ANALYZE_MAX_SOURCE_ROWS = 1000
